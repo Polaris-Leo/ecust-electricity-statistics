@@ -57,7 +57,7 @@ def building_number_map(id: int | str) -> int:
     """
     match int(id):
         case x if x >= 27 and x <= 46:
-            return x - 22
+            return x - 24
         case x if x >= 49 and x <= 52:
             return x - 24
         case other:
